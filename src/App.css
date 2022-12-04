@@ -1,0 +1,23 @@
+/* html{
+    background-color: red;
+} */
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: lightblue;
+    border: 1.2px solid rgb(214, 142, 140);
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+}
+
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
